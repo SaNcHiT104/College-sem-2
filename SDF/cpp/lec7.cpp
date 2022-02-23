@@ -52,7 +52,7 @@ int main(){
     int i,j,flag,choice,amt;
     long accNo;
     for(i=0;i<3;i++){
-        cout<<"Enter details"
+        cout<<"Enter details";
         A[i].initialize();
     }
 }
