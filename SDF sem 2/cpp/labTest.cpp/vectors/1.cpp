@@ -9,6 +9,7 @@ int main(){
     }
     v1.push_back(5); //last element 5
     cout<<v1[v1.size()-1]<<endl;
+    v1.insert(v1.begin(),20); // inserting 20 at starting
     v1.pop_back();
     cout<<v1[v1.size()-1];
     vector<int> v2;
